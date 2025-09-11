@@ -1,4 +1,4 @@
-## (I)building-a-brain
+## (II)Even easier Cuda
 Links:
 https://developer.nvidia.com/blog/even-easier-introduction-cuda/
 
