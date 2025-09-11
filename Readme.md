@@ -1,3 +1,12 @@
+## (I)building-a-brain
+```bash
+1)Taking 28*28 pixel images frm fashion_mnist dataset
+2)Taking 10 neuron for each class like shirt,trousers
+3)Total params:7,840 +10 from classes
+3) Training: Use SparseCategoricalCrossentropy from_logits
+4)Evaluate using epoch(fit)
+5)Predict on the dataset/validation set/trained set.
+```
 ## (II)Even easier Cuda
 Links:
 https://developer.nvidia.com/blog/even-easier-introduction-cuda/
