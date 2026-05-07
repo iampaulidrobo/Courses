@@ -1,16 +1,28 @@
-# focus_timer
+# ApnaFlow Local Release v1
 
-A new Flutter project.
+This package is the local-only, phone-ready version.
 
-## Getting Started
+## What changed
+- No Firebase imports
+- Local profile storage in app documents
+- Session storage in app documents
+- Swipe-up intro screen
+- Front/back camera toggle icon
+- Start recording only; auto-stop at duration end
+- Past dates hidden by calendar start date
+- Estimate tab shows clean session cards with progress bars
+- Update tab shows sessions, calendar, and session stats
+- Session rename/delete restored
 
-This project is a starting point for a Flutter application.
+## Use inside your existing Flutter project
+Replace the `lib/` folder with this package, merge `pubspec.yaml` dependencies and assets, then run:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run -d <your_android_device_id>
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Notes
+- Videos and profile data are stored inside app-private storage.
+- No Firebase setup is needed for this release.
+- Camera permission must be enabled on Android.

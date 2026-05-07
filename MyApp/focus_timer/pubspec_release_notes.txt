@@ -1,0 +1,11 @@
+Add these dependencies if your pubspec does not already have them:
+
+firebase_core
+firebase_auth
+google_sign_in
+shared_preferences
+camera
+table_calendar
+path_provider
+video_player
+path
